@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BÁNH CAKE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <header>
+            <head>Hoàng Xuân Sang</head>
+        </header>
+            <!-- start menu -->
+            <nav class="navbar navbar-expand-lg navbar-brand bg-warning sticky-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Trang chủ</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="#">
+                                    Sản phẩm
+                                </a>
+                                <ul class="dropdown-content">
+                                    <li><a class="dropdown-item" href="#">Bánh
+                                            kem</a></li>
+                                    <li><a class="dropdown-item" href="#">Bánh
+                                            mỳ</a></li>
+                                    <li><a class="dropdown-item" href="#">Bánh
+                                            khác</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="#">
+                                    Liên hệ
+                                </a>
+                                <ul class="dropdown-content">
+                                    <li><a class="dropdown-item" href="#">Chúng
+                                            tôi</a></li>
+                                    <li><a class="dropdown-item" href="#">Về
+                                            chúng
+                                            tôi</a></li>
+                                    <li><a class="dropdown-item" href="#">Tuyển
+                                            dụng</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="#">
+                                    Các thức khác
+                                </a>
+                                <ul class="dropdown-content">
+                                    <li><a class="dropdown-item" href="#">Babyshark</a></li>
+                                    <li><a class="dropdown-item" href="#">Mommy
+                                            shark</a></li>
+                                    <li><a class="dropdown-item" href="#">Daddy
+                                            shark</a><ul
+                                            class="dropdown-content-small">
+                                            <li><a
+                                                    class="dropdown-item-small"
+                                                    href="#">Babyshark</a></li>
+                                            <li><a
+                                                    class="dropdown-item-small"
+                                                    href="#">Mommy
+                                                    shark</a></li>
+                                            <li><a
+                                                    class="dropdown-item-small"
+                                                    href="#">Daddy
+                                                    shark</a></li>
+                                        </ul></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search"
+                                placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success"
+                                type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        <!-- end menu -->
+        <!-- start carousel -->
+        <div class="container">
+            <div class="header-title radius-boxshadow">
+                <div id="carouselExampleIndicators"
+                    class="carousel slide carousel-fade mt-3"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                                src="http://bonpasbakery.com/image/cache/data/sdfdsgfhgj-1240x215f.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="http://bonpasbakery.com/image/cache/data/Banner/1345-1240x215f.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="http://bonpasbakery.com/image/cache/data/sdfdsgfhgj-1240x215f.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- end carousel -->
+        <!-- sản phẩm start -->
+        <div class="container mt-5">
+            <div class="row">
+                <h2 class="list-product-title">Bánh tart</h2>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-secondary" style="width: 18rem;">
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-info">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-success"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-primary" style="width: 18rem;">
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-dark">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-warning"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-warning" style="width: 18rem; overflow: hidden;">
+                        <h3 class="sale2">SALE</h3>
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-primary">Xem
+                                    chi tiết</a>
+                                <a href="#" class="btn btn-danger"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-success" style="width: 18rem;">
+                        <h6 class="sale1"><span class="badge bg-warning">Sale</span></h6>
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-dark">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-dark"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <h2 class="list-product-title">Bánh tart 1</h2>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-secondary" style="width: 18rem;">
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-info">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-success"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-primary" style="width: 18rem;">
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-dark">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-warning"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-warning" style="width: 18rem; overflow: hidden;">
+                        <h3 class="sale2">SALE</h3>
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-primary">Xem
+                                    chi tiết</a>
+                                <a href="#" class="btn btn-danger"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-success" style="width: 18rem;">
+                        <h6 class="sale1"><span class="badge bg-warning">Sale</span></h6>
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-dark">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-dark"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <h2 class="list-product-title">Bánh tart 2</h2>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-secondary" style="width: 18rem;">
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-info">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-success"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-primary" style="width: 18rem;">
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-dark">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-warning"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-warning" style="width: 18rem; overflow: hidden;">
+                        <h3 class="sale2">SALE</h3>
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-primary">Xem
+                                    chi tiết</a>
+                                <a href="#" class="btn btn-danger"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-success" style="width: 18rem;">
+                        <h6 class="sale1"><span class="badge bg-warning">Sale</span></h6>
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-dark">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-dark"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <h2 class="list-product-title">Bánh tart 3</h2>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-secondary" style="width: 18rem;">
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-info">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-success"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-primary" style="width: 18rem;">
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-dark">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-warning"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-warning" style="width: 18rem; overflow: hidden;">
+                        <h3 class="sale2">SALE</h3>
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-primary">Xem
+                                    chi tiết</a>
+                                <a href="#" class="btn btn-danger"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <div class="card text-bg-success" style="width: 18rem;">
+                        <h6 class="sale1"><span class="badge bg-warning">Sale</span></h6>
+                        <img
+                            src="http://bonpasbakery.com/image/cache/data/20170823/Tart-trứng-360x224f.png"
+                            class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title product-title">Bánh tart trứng</h5>
+                            <div class="card-text">
+                                <span class="del-price">25.000VND</span>
+                                <span class="new-price">19.000VND</span>
+                                <a href="#" class="btn btn-outline-dark">Xem chi
+                                    tiết</a>
+                                <a href="#" class="btn btn-dark"><i
+                                        class="bi bi-cart-plus"></i> Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="JQuery-3.7.0.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

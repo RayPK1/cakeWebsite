@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* xử lý menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    width: 200%;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(252, 252, 150);
+    color: black;
+    list-style: square;
+}
+
+.dropdown-item-small{
+    text-decoration: none;
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    list-style: none;
+}
+
+.dropdown:hover {
+    background-color: white;
+}
+
+.dropdown-content-small {
+    display: none;
+}
+
+.dropdown-content:hover .dropdown-content-small{
+    display: block;
+    list-style: none;
+       
+}
+
+.dropdown-item:hover{
+    background-color: white;
+    opacity: 0.6;
+    
+}
+.dropdown-item-small:hover {
+    opacity: 0.6;
+   
+}
+
+.product-title {
+    margin-bottom: 1rem;
+}
+
+.del-price {
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-weight: bold;
+    color: rgb(10, 179, 10);
+}
+
+.sale1 {
+    position: absolute;
+    right: 0px;
+}
+
+.sale2 {
+    width: 120px;
+    display: block;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    position: absolute;
+    rotate: 45deg;
+    right: -33px;
+    top: 14px;
+    overflow: hidden;
+}
